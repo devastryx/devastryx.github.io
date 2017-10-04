@@ -1,0 +1,268 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+@import url(https://fonts.googleapis.com/css?family=Raleway:500,900);
+@import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
+
+nav ul a,
+nav .brand-logo {
+  color: #fff;
+}
+
+nav {
+    background: rgba(0,0,0,0.4);
+}
+
+nav ul li:hover{
+    background: rgba(0,0,0,0.4);
+    color: #fff;
+}
+
+.links:hover{
+    color: rgba(68,222,88,0.75);
+}
+
+p {
+  line-height: 2rem;
+}
+
+.button-collapse {
+  color: #26a69a;
+}
+
+.header-section {
+  min-height: 100vh;
+    background: url(header-bg.jpeg);
+    color:#fff;
+    vertical-align: middle;
+}
+
+.header-wrapper{
+    background: rgba(0,0,0,0.7);
+    height: 100vh;
+}
+
+.header-content {
+    position: relative;
+    top: 30%;
+    font-size: 20px;
+}
+
+.header-content p::before{
+    content: "__";
+    color:#0eb493;
+    position: relative;
+    top: -6px;
+}
+
+.header-content p::after{
+    content: "__";
+    color:#0eb493;
+    position: relative;
+    top: -6px;
+}
+
+.header-content h4{
+    font-size: 62px;
+    font-weight: 200;
+}
+.header-content h4 span{
+    color: #0eb493;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+}
+
+.parallax-container .bg{
+    height: 100%;
+    background: rgba(6,32,51,.8);
+}
+
+.parallax-container {
+    width: 100%;
+    height: 400px;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+/*
+.hr-style{
+    width: 45px;
+    position: relative;
+    top: -5px;
+    border: none;
+    height: 2px;
+    background: rgba(0,0,0,0.5); 
+}
+*/
+
+p.underline{
+    position: relative;
+    top: -15px;
+}
+
+p.underline::before, p.underline::after{
+    content: " ____ ";
+    color: rgba(0,0,0,0.5);
+    position: relative;
+    top: -6px;
+}
+
+.services-section{
+    background: #f4f7f9;
+    padding-top: 20px;
+}
+
+.services-section h2, .bg h2, .team-section h2{
+    color: #0eb493;
+    font-size: 25px;
+    font-weight: 700;
+    font-style: 'Open Sans',sans-serif;
+}
+
+.services-section .section{
+    margin-left: 5%;
+    margin-right:5%;
+}
+
+.bg .underline{
+    color: #fff;
+}
+
+.bg .underline::before, .bg .underline::after{
+    color: #fff;
+}
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+.icon-block img{
+    height: 60px;
+    width: 60px;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+.team-section{
+    background: #fff;
+    color: #fff;
+}
+
+.team-section h2{
+    color: #fff;
+}
+/* Our Team CSS */
+figure.snip1471 {
+  font-family: 'Raleway', Arial, sans-serif;
+  color: #fff;
+  position: relative;
+  float: left;
+  overflow: hidden;
+  margin: 10px 1%;
+  min-width: 230px;
+  max-width: 315px;
+  max-height: 230px;
+  width: 100%;
+  background: #000000;
+  color: #ffffff;
+}
+figure.snip1471 * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.6s ease;
+  transition: all 0.6s ease;
+}
+figure.snip1471 img {
+  opacity: 0.8;
+  width: 100%;
+  -webkit-transition: opacity 0.35s;
+  transition: opacity 0.35s;
+}
+figure.snip1471 figcaption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+figure.snip1471 figcaption > div {
+  height: 50%;
+  overflow: hidden;
+  width: 100%;
+  position: relative;
+}
+figure.snip1471 h2,
+figure.snip1471 h3,
+figure.snip1471 .icons {
+  margin: 0;
+  position: absolute;
+  right: 0;
+  padding: 0 30px;
+  text-transform: uppercase;
+}
+figure.snip1471 h2 {
+  font-weight: 900;
+  bottom: 0;
+}
+figure.snip1471 h3 {
+  font-size: 1em;
+  top: 0;
+  font-weight: 500;
+}
+figure.snip1471 .icons {
+  opacity: 0;
+  -webkit-transform: translateY(-150%);
+  transform: translateY(-150%);
+}
+figure.snip1471 .icons a {
+  color: #ffffff;
+  text-decoration: none;
+  padding: 5px;
+  font-size: 1.6em;
+  opacity: 0.6;
+}
+figure.snip1471 .icons a:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+figure.snip1471:hover img,
+figure.snip1471.hover img {
+  opacity: 0.3;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+figure.snip1471:hover figcaption h3,
+figure.snip1471.hover figcaption h3 {
+  -webkit-transform: translateY(-150%);
+  transform: translateY(-150%);
+  opacity: 0;
+}
+figure.snip1471:hover figcaption .icons,
+figure.snip1471.hover figcaption .icons {
+  opacity: 1;
+  -webkit-transform: translateY(0%);
+  transform: translateY(0%);
+}
