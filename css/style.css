@@ -12,12 +12,16 @@
 nav ul a,
 nav .brand-logo {
   color: #fff;
+  font-family: sans-serif;
 }
 
 nav {
     background: rgba(0,0,0,0.4);
 }
 
+.links {
+    font-family: 'Open Sans',sans-serif;
+}
 nav ul li:hover{
     background: rgba(0,0,0,0.4);
     color: #fff;
@@ -25,6 +29,10 @@ nav ul li:hover{
 
 .links:hover{
     color: rgba(68,222,88,0.75);
+}
+
+.typed-cursor{
+    opacity: 0;
 }
 
 p {
@@ -167,7 +175,7 @@ footer.page-footer {
 }
 
 .team-section{
-    background: #fff;
+    background: #f4f7f9;
     color: #fff;
 }
 
@@ -265,4 +273,127 @@ figure.snip1471.hover figcaption .icons {
   opacity: 1;
   -webkit-transform: translateY(0%);
   transform: translateY(0%);
+}
+
+/* Contact Us Section Style */
+
+.contact-us{
+    background: #fff;
+}
+
+.contact-us h2,.work h2,.contact-section h2{
+    color: #0eb493;
+    font-family: 'Open Sans',sans-serif;
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.contact-us p,.contact-us p::before,.contact-us p::after,.work p,.work p::before,.work p::after{
+    color: #000;
+}
+
+.contact-section p,.contact-section p::before,.contact-section p::after{
+    color: #000;
+}
+
+svg {
+    display: block;
+    margin: 60px auto;
+    width: 80%;
+    max-width: 320px;
+    cursor: pointer;
+}
+#all-items {
+  opacity: 0;
+}
+
+.contact-us img{
+    width: 130%;
+    height: 130%;
+    position: relative;
+    right: 80px;
+}
+
+footer i{
+    padding-left: 2px;
+    padding-right: 2px;
+    color: red;
+}
+
+/* DIVIDING EXPERIMENtiNG SeCTION STYLES */
+
+
+ .tech {
+	padding-top: 4rem;
+	padding-bottom: 4rem;
+  }
+
+ .tech img{
+	width: 150px;
+    padding: 15px; 
+}
+
+.work{
+    background: #f4f7f9;
+}
+
+.work img{
+    width: 100%;
+    height: 100%;
+}
+
+.work h3{
+    font-weight: 400;
+    font-family: 'Open Sans',sans-serif;
+}
+
+.work p{
+    font-weight: 200;
+    font-size: 20px;
+}
+
+#sole{
+    height: 500px
+}
+
+.contact-section {
+    background: #f4f7f9;
+}
+
+.contact-section p{
+    color: #5b646e;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 24px;
+}
+
+.contact-section .container{
+    width: 80%;
+}
+
+.contact-section h3{
+    font-size: 20px;
+    font-weight: 600;
+    font-family: sans-serif;
+    padding-top: 10px;
+}
+
+.contact-section .address{
+    color: #6a737b;
+    font-size: 16px;
+    font-weight: 200;
+    line-height: 20px;
+    padding-top: 12px;
+}
+
+#tech-cloud{
+    width: 100%;
+    margin-left: 15px;
+}
+
+#logo{
+    height: 30px;
+    width: 120px;
+    padding-left: 20px;
 }
