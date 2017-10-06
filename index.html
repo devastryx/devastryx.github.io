@@ -32,8 +32,8 @@
                   <a href="#" class="brand-logo"><img id="logo" src="logo.png"></a>
                   <ul id="nav-mobile" class="right hide-on-med-and-down">
                     <li class="li-nav"><a class="links" href="#head">Home</a></li>
-                    <li class="li-nav"><a class="links" href="#service">Services</a></li>
-                    <li class="li-nav"><a class="links" href="#team">Team</a></li>
+                    <li class="li-nav"><a class="links" href="#service-scroll">Services</a></li>
+                    <li class="li-nav"><a class="links" href="#team-scroll">Team</a></li>
                     <li class="li-nav"><a class="links" href="#facts">Facts</a></li>  
                     <li class="li-nav"><a class="links" href="#contact">Contact</a></li>  
                   </ul>
@@ -48,6 +48,7 @@
     </div>
 
     <!-- Services -->
+    <div id="service-scroll"></div>
     <div id="service" class="services-section">
     <div class="section center">
         <h2 class="wow bounceInUp"> SERVICES OFFERED </h2>
@@ -59,7 +60,7 @@
             <h2 class="center brown-text"><img src="bar-chart.svg"></h2>
             <h5 class="center">Data  Analytics</h5>
 
-            <p class="light">We did most of the heavy lifting for you to provide a default stylings that incorporate our custom components. Additionally, we refined animations and transitions to provide a smoother experience for developers.</p>
+            <p class="light">Customer analytics data enables you to improve your product, marketing, and sales. It can help you understand users' behavior, prioritize product features, and target users with relevant offers at the right time. We will help you understand what data you could collect, and setup the right tools to obtain and analyze that data to get insights about your customers.</p>
           </div>
         </div>
 
@@ -68,7 +69,7 @@
             <h2 class="center brown-text"><img src="smartphone.svg"></h2>
             <h5 class="center">Application Development</h5>
 
-            <p class="light">By utilizing elements and principles of Material Design, we were able to create a framework that incorporates components and animations that provide more feedback to users. Additionally, a single underlying responsive system across all platforms allow for a more unified user experience.</p>
+            <p class="light">The mobile versions of our products are rich in user experience; ensure complete user engagement and instantaneous feedback When designing apps for our products CX (Customer Experience) is our major focus. A user-friendly interface that blends with the industry needs of customers is what makes a product successful.</p>
           </div>
         </div>
           
@@ -79,7 +80,7 @@
             <h2 class="center brown-text"><img src="responsive.svg"></h2>
             <h5 class="center">Web Development</h5>
 
-            <p class="light">We have provided detailed documentation as well as specific code examples to help new users get started. We are also always open to feedback and can answer any questions a user may have about Materialize.</p>
+            <p class="light">We have built sophisticated web applications to help our clients solve complex business challenges. Our solutions are efficient, flexible, easy to maintain, and perform flawlessly across devices, browsers, and operating systems.</p>
           </div>
         </div>
         
@@ -88,7 +89,8 @@
             <h2 class="center brown-text"><img src="coding.svg"></h2>
             <h5 class="center">Machine Learning</h5>
 
-            <p class="light">We have provided detailed documentation as well as specific code examples to help new users get started. We are also always open to feedback and can answer any questions a user may have about Materialize.</p>
+            <p class="light">Machine learning could bring significant value to the business: improving the core functionality of existing software and analytics, uncovering previously inaccessible insights hidden in large data sets unstructured data formats, and taking over tasks like image recognition, text analysis, and repetitive knowledge work.
+            </p>
           </div>
         </div>  
       </div>    
@@ -135,6 +137,7 @@
     
     
     <!-- Team Section -->
+    <div id="team-scroll"></div>
     <div id="team" class="team-section">
         <br>
         <center> 
@@ -256,7 +259,7 @@
         <center><p class="underline"><i class="fa fa-circle-thin" aria-hidden="true"></i></p></center>
         
         <div class="row">
-            <div class="col s12 m7"><img src="Ehaat.jpg"></div>
+            <div class="col center s12 m7"><img src="Ehaat.jpg"></div>
             <div class="col s12 m5">
                 <br><br>
                 <h3 class="center"> E-HAAT </h3>
@@ -266,7 +269,7 @@
             </div>
         </div>
         <div class="row" style="background: #fff">
-            <div class="col s12 m5">
+            <div class="col center s12 m5">
                 <br><br>
                 <h3 class="center"> EPISODES </h3>
                 <p>
@@ -276,7 +279,7 @@
             <div class="col s12 m7"><img src="episodes.jpg"></div>
         </div>
         <div class="row">
-            <div class="col s12 m7"><img id="sole" src="soleIndia.png"></div>
+            <div class="col center s12 m7"><img id="sole" src="soleIndia.png"></div>
             <div class="col s12 m5">
                 <br><br>
                 <h3 class="center"> SOLE INDIA </h3>
@@ -293,7 +296,7 @@
                    Developed for DTU's annual cultural fest, which facilitates the problem registrating for events and accomodation and also for navigation and notifications.
                 </p>
             </div>
-            <div class="col s12 m7"><img src="Ehaat.jpg"></div>
+            <div class="col center s12 m7"><img src="Ehaat.jpg"></div>
         </div>
     </div>
     
@@ -398,8 +401,8 @@
     // TypedJS Setup  
     var typedJS = new Typed('#typed', {
     strings: ['','ASTRYX !','QUALITY !','SUCCESS !'],
-    typeSpeed: 35,
-    backSpeed: 10,
+    typeSpeed: 45,
+    backSpeed: 20,
     smartBackspace: true, // this is a default
     loop: true
   });
@@ -422,7 +425,7 @@
     // Navbar colour change JS
     $(window).scroll(function() {
     var scroll = $(window).scrollTop();
-        console.log("Scroll: "+scroll);
+        //console.log("Scroll: "+scroll);
         if (scroll > 300) {
           $(".nav-bar").css("background", "rgba(255,255,255,1)");    
           $(".links").css("color","#000");
