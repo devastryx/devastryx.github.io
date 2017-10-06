@@ -323,33 +323,29 @@
             <div class="col s12 m8">
                 <h3 class="center"> Say Hello!</h3>
                 <div class="row">
-                    <form class="col s12">
+                    <form method="POST" action="http://formspree.io/chetan.gupta97@hotmail.com" class="col s12">
                       <div class="row">
                         <div class="input-field col s6">
                           <i class="material-icons prefix">account_circle</i>
-                          <input id="icon_prefix" type="text" class="validate">
+                          <input name="reply_to" id="icon_prefix" type="text" class="validate">
                           <label for="icon_prefix">First Name</label>
                         </div>
                         <div class="input-field col s6">
-                          <i class="material-icons prefix">phone</i>
-                          <input id="icon_telephone" type="tel" class="validate">
-                          <label for="icon_telephone">Telephone</label>
+                          <i class="material-icons prefix">mail</i>
+                          <input id="icon_telephone" name="email" type="email" class="validate">
+                          <label for="icon_telephone">Email</label>
                         </div>
                       </div>
-                    </form>
-                </div>
-                <div class="row">
-                    <form class="col s12">
                       <div class="row">
                         <div class="input-field col s12">
                           <i class="material-icons prefix">mode_edit</i>
-                          <textarea id="icon_prefix2" class="materialize-textarea"></textarea>
+                          <textarea name="message" id="icon_prefix2" class="materialize-textarea"></textarea>
                           <label for="icon_prefix2">Message</label>
                         </div>
-                      </div>
+                      </div>   
+                      <center><a class="btn">Send</a></center>    
                     </form>
                 </div>
-                <center><a class="btn">Send</a></center>
             </div>
         </div>
         <br>    
