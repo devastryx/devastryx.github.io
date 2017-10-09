@@ -12,31 +12,10 @@
 html,body
 {
     width: 100%;
+    max-width: 100%;
     margin: 0px;
     padding: 0px;
     overflow-x: hidden; 
-}
-
-nav ul a,
-nav .brand-logo {
-  color: #fff;
-  font-family: sans-serif;
-}
-
-nav {
-    background: rgba(0,0,0,0.4);
-}
-
-.links {
-    font-family: 'Open Sans',sans-serif;
-}
-nav ul li:hover{
-    background: rgba(0,0,0,0.4);
-    color: #fff;
-}
-
-.links:hover{
-    color: rgba(68,222,88,0.75);
 }
 
 .typed-cursor{
@@ -200,6 +179,7 @@ footer.page-footer {
 .team-section{
     background: #f4f7f9;
     color: #fff;
+    padding-top: 1rem;
 }
 
 .team-section h2{
@@ -215,7 +195,7 @@ figure.snip1471 {
   margin: 10px 1%;
   min-width: 230px;
   max-width: 315px;
-  max-height: 230px;
+  max-height: 315px;
   width: 100%;
   background: #000000;
   color: #ffffff;
@@ -317,6 +297,7 @@ figure.snip1471.hover figcaption .icons {
 
 .contact-us{
     background: #fff;
+    padding-top: 4.5rem;
 }
 
 .contact-us h2,.work h2,.contact-section h2{
@@ -373,6 +354,7 @@ footer i{
 
 .work{
     background: #f4f7f9;
+    padding-top: 4.5rem;
 }
 
 .work img{
@@ -391,6 +373,7 @@ footer i{
 
 .contact-section {
     background: #f4f7f9;
+    padding-top: 4.5rem;
 }
 
 .contact-section p{
@@ -430,6 +413,7 @@ footer i{
     height: 40px;
     width: 140px;
     margin-left: 70px;
+    margin-top: -16px;
 }
 
 /* NavBar Styling */
@@ -465,7 +449,7 @@ footer i{
     top: 0;
     right: 25px;
     font-size: 36px;
-    //margin-left: 400px;
+    
 }
 
 #main {
@@ -480,12 +464,14 @@ footer i{
 
 .navbar {
     width: 100%;
+    height: 60px;
     position: fixed;
     box-shadow: 1px 1px 1px #222222;
     transition: 0.5s;
     font-size: 20px;
     top: 0;
     background: rgba(255,255,255,1);
+    margin-right: 20px;
 }
 .nav{padding-right: 40px;}
 .nav li{
@@ -494,6 +480,7 @@ footer i{
     padding:9px 10px;
     padding-bottom: 5px;
     margin-bottom: 5px;
+    margin-top: -15px;
 }
 .nav li a{
     text-decoration: none;
@@ -518,6 +505,7 @@ footer i{
     display: block;
     margin:0px 20px;
     color: #fff;
+    margin-top: -12px;
 }
 .brand{
     margin-left: 30px;
@@ -539,4 +527,13 @@ footer i{
 @media screen and (min-width: 680px) {
     
     .slide-btn {overflow:hidden;display: none;}
+}
+
+#episode{
+    max-width: 100%;
+}
+
+#facts{
+    padding-top: 4.5rem;
+    background: #f4f7f9;
 }
