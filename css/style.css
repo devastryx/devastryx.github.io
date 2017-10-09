@@ -32,7 +32,7 @@ p {
 
 .header-section {
     min-height: 100vh;
-    background: url(header-bg.jpeg);
+    background: url(header_bg.jpg);
     color:#fff;
     vertical-align: middle;
     top: 0;
@@ -193,7 +193,6 @@ figure.snip1471 {
   float: left;
   overflow: hidden;
   margin: 10px 1%;
-  min-width: 230px;
   max-width: 315px;
   max-height: 315px;
   width: 100%;
@@ -536,4 +535,13 @@ footer i{
 #facts{
     padding-top: 4.5rem;
     background: #f4f7f9;
+}
+
+#chetan-img{
+    height: 255px;
+}
+
+#sid{
+    height: 263px;
+    margin-top: -2px;
 }
