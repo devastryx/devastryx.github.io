@@ -186,6 +186,8 @@ footer.page-footer {
     color: #fff;
 }
 /* Our Team CSS */
+
+
 figure.snip1471 {
   font-family: 'Raleway', Arial, sans-serif;
   color: #fff;
@@ -408,7 +410,7 @@ footer i{
     padding-left: 10px;
 }
 
-#logo{
+#company-logo{
     height: 40px;
     width: 140px;
     margin-left: 70px;
@@ -535,4 +537,36 @@ footer i{
 #facts{
     padding-top: 4.5rem;
     background: #f4f7f9;
+}
+
+@media screen and (man-width: 768px) {
+    .row .center .wow .fadeIn {
+        padding-left: 35px ;
+    } 
+   
+}
+
+@media screen and (max-width: 680px) {
+    
+    #team-img {
+        margin-left: 20px;
+    }
+
+}
+
+@media screen and (max-width: 680px) {
+    
+    #advisor-img {
+        margin-left: 20px;
+    }
+
+}
+
+
+@media screen and (max-width: 680px) {
+    
+    #company-logo {
+        margin-left: 30px;
+    }
+
 }
