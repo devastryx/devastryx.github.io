@@ -567,12 +567,6 @@ footer i {
   background: #f4f7f9;
 }
 
-@media screen and (man-width: 768px) {
-  .row .center .wow .fadeIn {
-    padding-left: 35px;
-  }
-}
-
 @media screen and (max-width: 680px) {
   #team-img {
     display: block;
