@@ -623,6 +623,11 @@ footer i {
 
 @media screen and (max-width: 680px) {
     #company-logo {
-        text-align: center;
+        margin: auto;
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
     }
 }
